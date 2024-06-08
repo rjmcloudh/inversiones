@@ -15,7 +15,7 @@ def get_content():
     options.add_argument('--no-sandbox')
     options.add_argument('--disable-dev-shm-usage')
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
-    login(driver, 'mirodrigom@gmail.com', '47725461')
+    login(driver, '*****@gmail.com', '******')
     search(driver,"AL30D")
     inside_block(driver)
     search(driver,"AL30C")
